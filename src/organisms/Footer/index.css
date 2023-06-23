@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
+
+footer {
+  background-color: #32b4c4;
+  font-family: "Armata", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sm-div img {
+  width: 40px;
+  padding-right: 6px;
+  background-color: #ffffff80;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+#linkedin {
+  margin-right: 0;
+}
+
+.sm-div {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* .fter-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 100px;
+} */
+
+.first-para {
+  text-align: center;
+}
+
+/* #whatsapp-icon {
+    width: 7%;
+    background-color: inherit;
+    margin-right: 100px;
+} */
+
+.sm-div h3 {
+  font-size: 20px;
+  color: #0006;
+}
+
+.ft-logo-img{
+    width: 150px;
+  }
+
+  .ft-logo {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+.fter-div {
+  display: flex;  
+}
+
+ul {
+    text-align: justify;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+@media screen and (max-width: 580px) {
+  .fter-div {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .ft-logo{
+    margin: auto;
+    padding: 0;
+  }
+
+  .ft-logo-img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0;
+    width: 120px;
+  }
+}
