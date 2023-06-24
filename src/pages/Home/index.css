@@ -147,21 +147,15 @@ main {
 }
 
 @media screen and (max-width: 490px) {
-
-  .name-para {
-    font-size: 1.8rem;
-    margin-bottom: -12px;
-}
-
   .para {
-    padding: 0 100px;
-    font-size: 2.5rem;
-    line-height: 76px;
+    padding: 0 25px;
+    font-size: 2rem;
+    line-height: 60px;
   }
 
   .first-sect h3 {
-    font-size: 4rem;
-    line-height: 100px;
+    font-size: 2rem;
+    line-height: 50px;
   }
 
   .profile_img {
