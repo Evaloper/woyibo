@@ -28,25 +28,26 @@
     max-width: 40%;
 }
 
-.section-title h2:before {
+.section-title {
+    margin-bottom: 30px;
+}
+
+.circle-span {
     content: '';
     position: absolute;
-    left: 0;
-    bottom: -35px;
-    width: 10px;
+    width: 30px;
     height: 10px;
-    background: #e45447;
+    background: rgb(50, 180, 156);
     border-radius: 7px;
 }
 
-.section-title h2:after {
+.dash-span {
     content: '';
     position: absolute;
-    left: 0;
-    bottom: -31px;
-    width: 100px;
-    height: 2px;
-    background: #e45447;
+    margin-top: 4px;
+    width: 120px;
+    height: 3px;
+    background: rgb(50 180 196);
 }
 
 .btn-sect {

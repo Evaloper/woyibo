@@ -13,6 +13,8 @@ export const AboutMe = () => {
         <div className="about-right">
           <div className="section-title">
             <h2>About Myself</h2>
+			<span className="circle-span"></span>
+			<span className="dash-span"></span>
           </div>
           <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
             <p>
