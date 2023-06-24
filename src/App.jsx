@@ -7,7 +7,7 @@ import { Footer } from "./organisms/Footer";
 import { Home } from "./pages/Home";
 import { Carousel } from "./organisms/Carousel";
 import Skills from "./organisms/Skills/Skills";
-import { AboutMe } from "./organisms/Aboutme/AboutMe";?
+// import { AboutMe } from "./organisms/Aboutme/AboutMe";
 
 function App() {
   // const [count, setCount] = useState(0)
