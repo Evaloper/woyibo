@@ -18,37 +18,37 @@ import Design12 from "./images/welcome(2).jpg";
 export const Carousel = () => {
   return (
     <div className="carousel-container brands-area">
-      <div class="container m-auto">
-        <div class="brand-wrap">
-          <div class="flex flex-middle transition">
-            <div class="col single-brand mr-30">
+      <div className="container m-auto">
+        <div className="brand-wrap">
+          <div className="flex flex-middle transition">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={birdlehotel} alt="" />
+                <img className="mx-auto" src={birdlehotel} alt="" />
               </a>
             </div>
-            <div class="col single-brand mr-30">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={paulet} alt="" />
+                <img className="mx-auto" src={paulet} alt="" />
               </a>
             </div>
-            <div class="col single-brand mr-30">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={clientlogo} alt="" />
+                <img className="mx-auto" src={clientlogo} alt="" />
               </a>
             </div>
-            <div class="col single-brand mr-30">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={color} alt="" />
+                <img className="mx-auto" src={color} alt="" />
               </a>
             </div>
-            <div class="col single-brand mr-30">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={cuisine} alt="" />
+                <img className="mx-auto" src={cuisine} alt="" />
               </a>
             </div>
-            <div class="col single-brand mr-30">
+            <div className="col single-brand mr-30">
               <a href="#">
-                <img class="mx-auto" src={cuvvy} alt="" />
+                <img className="mx-auto" src={cuvvy} alt="" />
               </a>
             </div>
           </div>

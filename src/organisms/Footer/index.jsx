@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer>
       <div className="main-fter">
-        <div class="sm-div">
+        <div className="sm-div">
           <h3>GET IN TOUCH</h3>
           <img src={facebook} alt="" />
           <img src={twitter} alt="" />

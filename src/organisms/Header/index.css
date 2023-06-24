@@ -6,6 +6,7 @@ header {
   width: 100%;
   background: #f9fafa 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 10px #00000029;
+  padding: 0 50px;
 }
 
 .header {
@@ -49,5 +50,6 @@ li:hover {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    align-items: center;
   }  
 }
