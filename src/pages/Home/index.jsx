@@ -14,7 +14,7 @@ export const Home = () => {
             I help agencies and brands turn their ideas into designs. Let's
             make something beautiful.
           </p>
-          <Button  title="Contact Me" className="btn" />
+          <Button  title="Hire Me" className="btn" />
         </div>
         <div className="profile_img">
           <img className="image-profile" src={profilepics} />

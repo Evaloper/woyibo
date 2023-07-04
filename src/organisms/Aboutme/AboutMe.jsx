@@ -34,7 +34,7 @@ export const AboutMe = () => {
             <a href="#" data-text="More Info">
               <Button title="MORE INFO" className="primary-btn white" />
             </a>
-            <a href="#" data-text="Resume">
+            <a href="http://bit.ly/3krHXWC" data-text="Resume">
               <Button title="RESUME" className="primary-btn lilac" />
             </a>
           </div>
