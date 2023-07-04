@@ -41,12 +41,12 @@ export const Carousel = () => {
                 <img className="mx-auto" src={color} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30">
+            <div className="col single-brand mr-30 mb-vw-none">
               <a href="#">
                 <img className="mx-auto" src={cuisine} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30">
+            <div className="col single-brand mr-30 mb-vw-none">
               <a href="#">
                 <img className="mx-auto" src={cuvvy} alt="" />
               </a>
