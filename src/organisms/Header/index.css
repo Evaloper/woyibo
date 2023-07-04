@@ -1,7 +1,7 @@
 header {
   position: fixed;
   overflow: hidden;
-  top: 0;
+  top: -2px;
   z-index: 6;
   width: 100%;
   background: #f9fafa 0% 0% no-repeat padding-box;
