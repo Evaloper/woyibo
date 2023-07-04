@@ -16,6 +16,7 @@
     align-items: center;
     max-width: 100%;
     margin: 0 100px;
+    /* margin-bottom: 100px; */
 }
 
 .imd-fluid{
@@ -26,6 +27,10 @@
 .about-right {
     font-size: 1.5rem;
     max-width: 40%;
+}
+
+.about-para {
+    font-size: 1.3rem;
 }
 
 .section-title {
@@ -57,8 +62,8 @@
 }
 
 .primary-btn {
-    width: 200px;
-    font-size: 1.2rem;
+    width: 145px;
+    font-size: 1rem;
 }
 
 .white {
@@ -71,3 +76,32 @@
     border: 3px solid rgb(3 116 130 / 43%);
 }
 
+@media screen and (max-width: 780px) {
+    
+}
+@media screen and (max-width: 780px) {
+    .about-left{
+        display: none;
+    }
+
+    .about-right {
+       max-width: 100%;
+       text-align: justify;
+    }
+
+    .primary-btn{
+        width: 130px;
+        font-size: 1rem;
+    }
+
+    .about-sect {
+        border-top: none;
+    }
+
+    .about-sect-div {
+        margin: 100px 50px;
+    }
+}
+@media screen and (max-width: 780px) {
+
+}

@@ -16,7 +16,7 @@ export const AboutMe = () => {
 			<span className="circle-span"></span>
 			<span className="dash-span"></span>
           </div>
-          <div className="mb-50 wow fadeIn" data-wow-duration=".8s">
+          <div className="mb-50 wow fadeIn about-para" data-wow-duration=".8s">
             <p>
               inappropriate behavior is often laughed off as “boys will be
               boys,” women face higher conduct standards especially in the
