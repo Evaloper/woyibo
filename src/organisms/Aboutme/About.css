@@ -61,7 +61,7 @@
     justify-content: space-between;
 }
 
-.btn-sect a {
+.btn-sect a, .primary-btn{
     color: #000;
 }
 
