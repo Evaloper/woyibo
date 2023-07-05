@@ -149,7 +149,7 @@ main {
 
 @media screen and (max-width: 490px) {
   .para {
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 2rem;
     line-height: 60px;
   }
