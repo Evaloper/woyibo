@@ -61,6 +61,10 @@
     justify-content: space-between;
 }
 
+.btn-sect a {
+    color: #000;
+}
+
 .primary-btn {
     width: 145px;
     font-size: 1rem;
