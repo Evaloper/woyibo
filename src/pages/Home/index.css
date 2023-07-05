@@ -48,6 +48,7 @@ main {
   font-size: 1.5rem;
   border: 3px solid rgb(50, 180, 196);
   margin-top: 20px;
+  color: inherit;
 }
 
 .btn:hover {
