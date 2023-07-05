@@ -8,7 +8,7 @@ export const Icon = (props) => {
         style={{
           pointerEvents: "none",
           display: "block",
-          width: "50px",
+          width: "40px",
           height: "100%",
         }}
         viewBox="0 0 24 24"
