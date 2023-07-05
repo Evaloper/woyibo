@@ -46,20 +46,19 @@ main {
   width: 200px;
   background-color: #fff;
   font-size: 1.5rem;
-  border: 3px solid rgb(50, 180, 196);
-  margin-top: 20px;
+  border: 3px solid rgb(40,208,219);
   color: inherit;
 }
 
 .btn:hover {
-  background-color: rgb(50, 180, 196);
+  background-color: rgb(40,208,219);
 }
 
 .image-profile {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  background-color: rgb(50, 180, 196);
+  background-color: rgb(40,208,219);
   border-radius: 70px;
   box-shadow: inset -1px 2px 7px rgba(255, 255, 255, 0.7),
     inset -6px -5px 5px rgba(0, 0, 0, 0.5), 1px 2px 8px 0px #000000;
@@ -126,7 +125,7 @@ main {
     font-size: 1.2rem;
     padding: 20px 10px;
     border-radius: 8px;
-    border: 3px solid rgb(50, 180, 196);
+    border: 3px solid rgb(40,208,219);
     margin-top: 20px;
   }
 }

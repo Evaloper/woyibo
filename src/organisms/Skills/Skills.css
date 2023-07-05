@@ -7,13 +7,13 @@
 }
 
 .skill-header {
-  width: 30%;
+  width: 40%;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 4rem;
   padding: 100px 60px;
   color: #fff;
-  background-color: #00e3ff;
+  background-color: rgb(40,208,219);
   background-image: linear-gradient(45deg, #5a5a5a, transparent);
   text-shadow: 10px 6px 20px #00000085;
   display: flex;
@@ -47,24 +47,34 @@
 
 @media screen and (max-width: 820px) {
   .skill-header {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 100px 35px;
+    margin-left: 0;
   }
 
   .margin-styling {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
 
   .number-span {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .skills-list h3 {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
 
   .skills-list {
-    padding-left: 20px;
+    padding-left: 25px;
     line-height: 100px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .skills-list h3{
+    font-size: 14px;
+  }
+
+  .number-span{
+    font-size: 2rem;
   }
 }

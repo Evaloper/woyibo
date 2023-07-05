@@ -1,6 +1,6 @@
 .about.css {
     height: 100vh;
-    background-color: rgb(50, 180, 156);
+    background-color: rgb(40,208,219);
 }
 
 .about-sect {
@@ -42,7 +42,7 @@
     position: absolute;
     width: 30px;
     height: 10px;
-    background: rgb(50, 180, 156);
+    background: rgb(40,208,219);
     border-radius: 7px;
 }
 
@@ -52,7 +52,7 @@
     margin-top: 4px;
     width: 120px;
     height: 3px;
-    background: rgb(50 180 196);
+    background: rgb(40,208,219);
 }
 
 .btn-sect {
@@ -67,12 +67,12 @@
 }
 
 .white {
-    border: 3px solid rgb(50, 180, 196);
+    border: 3px solid rgb(40,208,219);
     background-color: #fff;
 }
 
 .lilac {
-    background-color:  rgb(50, 180, 196);
+    background-color:  rgb(40,208,219);
     border: 3px solid rgb(3 116 130 / 43%);
 }
 

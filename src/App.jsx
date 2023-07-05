@@ -18,7 +18,7 @@ function App() {
       <Home />
       <Carousel />
       <AboutMe />
-      {/* <Skills /> */}
+      <Skills />
       <Footer />
     </>
   );

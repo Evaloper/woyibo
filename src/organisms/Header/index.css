@@ -30,7 +30,8 @@ li {
 }
 
 li:hover {
-  border-bottom: 2px solid rgb(50 180 196);
+  border-bottom: 2px solid rgb(50, 180, 196);
+  margin-top: 20px;;
 }
 
 .home {
