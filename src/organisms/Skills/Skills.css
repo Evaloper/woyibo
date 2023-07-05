@@ -77,4 +77,8 @@
   .number-span{
     font-size: 2rem;
   }
+
+  .skills-sect {
+    padding: 0;
+  }
 }
