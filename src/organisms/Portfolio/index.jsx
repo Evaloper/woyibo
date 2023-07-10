@@ -6,7 +6,7 @@ import Card from "./Images/flyer(18).jpg";
 import Flyer2 from "./Images/flyer(40).jpg";
 import Flyer3 from "./Images/flyer(61).jpg";
 
-const Porfolio = () => {
+const Portfolio = () => {
   return (
     <section class="container tab_sec">
 		<div className="section-title">
@@ -92,4 +92,4 @@ const Porfolio = () => {
   );
 };
 
-export default Porfolio;
+export default Portfolio;

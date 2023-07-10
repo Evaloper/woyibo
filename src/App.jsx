@@ -8,7 +8,7 @@ import { Home } from "./pages/Home";
 import { Carousel } from "./organisms/Carousel";
 import Skills from "./organisms/Skills/Skills";
 import { AboutMe } from "./organisms/Aboutme/AboutMe";
-import Porfolio from "./organisms/Portfolio";
+import Portfolio from "./organisms/Portfolio";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -19,7 +19,7 @@ function App() {
       <Home />
       <Carousel />
       <AboutMe />
-      <Porfolio />
+      <Portfolio />
       <Skills />
       <Footer />
     </>

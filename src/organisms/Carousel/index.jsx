@@ -21,32 +21,32 @@ export const Carousel = () => {
       <div className="container m-auto">
         <div className="brand-wrap">
           <div className="flex flex-middle transition">
-            <div className="col single-brand mr-30">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={birdlehotel} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={paulet} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={clientlogo} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={color} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30 mb-vw-none">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={cuisine} alt="" />
               </a>
             </div>
-            <div className="col single-brand mr-30 mb-vw-none">
+            <div className="mr-30">
               <a href="#">
                 <img className="mx-auto" src={cuvvy} alt="" />
               </a>

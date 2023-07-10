@@ -5,6 +5,14 @@ import { Icon } from "../../atoms/Icons";
 import "./index.css";
 
 export const NavBar = () => {
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+
   return (
     <header>
       <div className="mobile-view">
@@ -12,7 +20,22 @@ export const NavBar = () => {
           <Images name="logo" className="logo-img" />
         </div>
         <div className="hamburger">
-          <Icon type="hamburger" />
+          <div onClick={openNav}>
+            <Icon type="hamburger" />
+          </div>
+          <div id="myNav" className="overlay">
+            <div onClick={closeNav}>
+              <a href="javascript:void(0)" class="closebtn">
+                &times;
+              </a>
+            </div>
+            <div className="overlay-content">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="header">
