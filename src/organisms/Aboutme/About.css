@@ -5,7 +5,7 @@
 
 .about-sect {
     border-top: 5px dotted rgb(50 180 196);
-    border-bottom: 5px dotted rgb(50 180 196);
+    /* border-bottom: 5px dotted rgb(50 180 196); */
     margin-top: -155px;
     
 }

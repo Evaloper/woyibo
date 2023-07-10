@@ -13,8 +13,8 @@ export const AboutMe = () => {
         <div className="about-right">
           <div className="section-title">
             <h2>About Myself</h2>
-			<span className="circle-span"></span>
-			<span className="dash-span"></span>
+            <span className="circle-span"></span>
+            <span className="dash-span"></span>
           </div>
           <div className="mb-50 wow fadeIn about-para" data-wow-duration=".8s">
             <p>
@@ -30,7 +30,7 @@ export const AboutMe = () => {
               beyond reproach. inappropriate behavior is often laughed.
             </p>
           </div>
-          <div  className="btn-sect">
+          <div className="btn-sect">
             <a href="#" data-text="More Info">
               <Button title="MORE INFO" className="primary-btn white" />
             </a>
